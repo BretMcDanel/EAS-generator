@@ -27,8 +27,8 @@ echo -n -e "${PREAMBLE}ZCZC-${ORIGINATOR}-${EVENT} + ${DURATION}-${STARTTIME}-${
 sleep 1
 
 
-# 8-25 second attention signal  835+960 Hz
-play -n synth 10 sin 835 sin 960 remix -
+# 8-25 second attention signal  853+960 Hz
+play -n synth 10 sin 853 sin 960 remix -
 sleep 1
 
 # transmission of audio, video or text message
